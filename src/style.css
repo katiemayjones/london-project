@@ -1,0 +1,44 @@
+body {
+  background: white;
+  font-family: "DM Sans", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/tower-bridge.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+  height: 100%;
+}
+
+.containerOne {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 104px;
+}
+
+.containerTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+}
+
+.bigBen {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  border: black 1px solid;
+  width: 300px;
+}
