@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>London</title>
+    <title>Welcome to London</title>
 
     <link rel="stylesheet" href="src/style.css" />
 
@@ -15,20 +15,20 @@
     />
   </head>
   <body>
-    <div class="containerOne">
+    <div class="container">
       <header>
         <h1>Welcome to London</h1>
         <h2>Capital city of the UK</h2>
-        <button>Learn More</button>
+        <button class="btn">Learn More</button>
       </header>
     </div>
-    <div class="containerTwo">
-      <div class="boxOne">
+    <section class="grid grid-2-columns">
+      <div>
         <img src="/london-project/images/big-ben.jpg" class="bigBen" />
       </div>
-      <div class="boxTwo">
-        <h3>Why London?</h3>
-        <p>
+      <div>
+        <h3 class="whyLondon">Why London?</h3>
+        <p class="main">
           London, a city steeped in history and pulsating with modern energy,
           stands as an unparalleled destination for any avid traveler. From the
           iconic silhouette of the Tower Bridge spanning the River Thames to the
@@ -42,6 +42,156 @@
           gastronomic scene also provides a tantalizing journey for the senses.
         </p>
       </div>
-    </div>
+    </section>
+
+    <section class="secondary">
+      <h2 class="text-center">Neighbourhoods</h2>
+      <h3 class="text-center">My favorite neighbourhoods in London</h3>
+      <div class="grid grid-3-columns">
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="../london-project/images/camden.jpg "
+              alt=""
+              class="img-responsive"
+            />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19852.007462493708!2d-0.17072470263570252!3d51.540712896509156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b1c5f1a9429%3A0x5ffdbed0f63cba58!2sCamden%20Town%2C%20London!5e0!3m2!1sen!2suk!4v1692363577967!5m2!1sen!2suk"
+              class="embed"
+              style="border: 0"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="card-body">
+            <h4>Camden Town</h4>
+            <p>
+              Camden is the UK home of the punk movement. Now known for its
+              alternative stores, diverse food choices and great music.
+            </p>
+            <h5>What's great about it</h5>
+            <p>
+              The streets are colourful, with unique buildings and artistic
+              expression.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="https://goo.gl/maps/eoNdWQ6h1i55XhU69"
+              class="btn"
+              target="_blank"
+              >Learn More</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="../london-project/images/soho.jpg"
+              alt=""
+              class="img-responsive"
+            />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4966.0042768071935!2d-0.14071355488187134!3d51.513176764202015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d49f4b7f9b%3A0xe44e57cc537e5dd2!2sSoho%2C%20London!5e0!3m2!1sen!2suk!4v1692365538741!5m2!1sen!2suk"
+              class="embed"
+              style="border: 0"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="card-body">
+            <h4>Soho</h4>
+            <p>
+              Camden is the UK home of the punk movement. Now known for its
+              alternative stores, diverse food choices and great music.
+            </p>
+            <h5>What's great about it</h5>
+            <p>
+              The streets are colourful, with unique buildings and artistic
+              expression.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="https://goo.gl/maps/W9CQTkU5LbH1N5yg9"
+              class="btn"
+              target="_blank"
+              >Learn More</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="../london-project/images/portobello-road.jpg "
+              alt=""
+              class="img-responsive"
+            />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.8813623262704!2d-0.2072605240481875!3d51.51539251012026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876101dd3acf887%3A0x746efd832aefe805!2sPortobello%20Rd%2C%20London!5e0!3m2!1sen!2suk!4v1692365641648!5m2!1sen!2suk"
+              class="embed"
+              style
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="card-body">
+            <h4>Portobello Road</h4>
+            <p>
+              Camden is the UK home of the punk movement. Now known for its
+              alternative stores, diverse food choices and great music.
+            </p>
+            <h5>What's great about it</h5>
+            <p>
+              The streets are colourful, with unique buildings and artistic
+              expression.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="https://goo.gl/maps/82m8Kv8H3DJcSgDc6"
+              class="btn"
+              target="_blank"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <section class="grid-3-columns">
+        <div>
+          <h3>More about London</h3>
+          <p>Map of London</p>
+          <p><a href="https://tfl.gov.uk/">Transport for London</a></p>
+          <p>
+            <a
+              href="https://www.tripadvisor.co.uk/Tourism-g186338-London_England-Vacations.html"
+              >TripAdvisor</a
+            >
+          </p>
+        </div>
+        <div>
+          <h3>About Me</h3>
+          <p>
+            Hi, I'm Katie. I am from the UK and I have lived in London, on and
+            off, for a while now. I love living here and wanted to share some of
+            my favourite things about this wonderful city.
+          </p>
+        </div>
+        <div>
+          <h3>About this website</h3>
+          <p>
+            As part of my SheCodes Add On unit, I was required to project a
+            responsive page about something I am passionate about. The project
+            is open source code created by
+            <a href="https://github.com/katiemayjones">Katiemay.</a>
+          </p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
