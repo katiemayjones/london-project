@@ -209,4 +209,8 @@ footer a {
   .grid-3-columns {
     grid-template-columns: 1fr !important;
   }
+
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
 }
